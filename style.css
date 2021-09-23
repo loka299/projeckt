@@ -1,0 +1,86 @@
+body{
+    background-color: #323044;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-end ;
+    list-style-type: none;
+}
+nav ul li a{
+   
+    color:#b9bddc ;
+    padding-right: 40px;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: mediumpurple;
+    color:#b9bddc ;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Header */
+
+ header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .left-col{
+     color: #b9bddc;
+     margin-left: 50px;
+ }
+ .left-col h1{
+     margin-bottom: 30px;
+ }
+ .left-col p{
+    font-size: 16px;
+    margin-bottom: 30px;
+ }
+ .input-btn input{
+     background-color: transparent;
+     outline: none;
+     border: 1px solid #b9bddc;
+     border-radius: 5px;
+     width: 325px;
+     height: 40px;
+     font-size: 20px;
+     margin-right: 10px;
+ }
+ .right-col img{
+     width: 600px;
+     height: 500px;
+     margin-right: 50px;
+ }
+ /* main */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2B40 ;
+    width: 80%;
+     /* 50% left , 50% right */
+    margin: 50px  auto;
+   border-radius: 5px;
+}
+main .box{
+    margin-right: 50px;
+    padding: 50px 0;
+}
+.box img{
+    margin-left: 30%;
+}
+.box h3{
+ color: #b9bddc;
+ text-align: center;
+}
+.box p{
+    color: #b9bddc;
+    text-align: center; 
+}
